@@ -1,0 +1,63 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Hasib">
+    <title>Newsletter Signup</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+
+
+  <form class="form-signin" action="/" method="POST">
+    <img class="mb-4" src="images/my-logo-2.png" alt="" width="92" height="128">
+    <h1 class="h3 mb-3 fw-normal">Signup to My Newsletter!</h1>
+
+    <div class="form-floating">
+      <input type="text" name="fName" class="form-control top" pattern="[a-zA-Z]+" placeholder="First Name" required autofocus>
+      <label> First Name</label>
+    </div>
+
+    <div class="form-floating">
+      <input type="text" name="lName" class="form-control middle" pattern="[a-zA-Z]+" placeholder="Last Name" required>
+      <label>Last Name</label>
+    </div>
+
+    <div class="form-floating">
+        <input type="email" name="email" class="form-control bottom" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" placeholder="Email" required>
+        <label>Email</label>
+      </div>
+
+<br>
+    <button class="w-100 btn btn-lg btn-warning" type="submit">Sign Me Up!</button>
+    <p class="mt-5 mb-3 text-muted">&copy; RAH 2021</p>
+  </form>
+
+
+
+    
+  </body>
+</html>
